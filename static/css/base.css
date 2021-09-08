@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    padding: 5px 5%;
+    background-image:url('../img/itachi.jpg');
+    background-size: 100%;
+    color: white;
+    font: 12pt 'Trebuchet MS';
+}
+
+header>h1 {
+    text-shadow: 2px 2px blue;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav a {
+    color: bisque;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+ header {
+    padding-top: 50px;
+ }
