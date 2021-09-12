@@ -1,0 +1,18 @@
+{% extends 'base/master.html'%}
+
+{% block title %}Otchet o registracii{% endblock %}
+
+{% block content %}
+<div class="main-box">
+    <h2>Otchet o registracii</h2>
+  <hr>
+  <div class="info-box" style="background-color: whitesmoke; padding: 20px; color: navy">
+    Vu yspeshno  ili ne yspeshno register...
+    <br>
+    {{ context['login'] }} <br>
+    {{ context['pass1'] }} <br>
+    {{ context['pass2'] }} <br>
+    {{ context['email'] }} <br>
+  </div>
+</div>
+{% endblock %}
